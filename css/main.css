@@ -42,18 +42,19 @@ ul.posts li {
     list-style: none;
 }
 
-/* Style buttons */
-.btn {
-  background-color: DodgerBlue;
+.button {
+  background-color: #ddd;
   border: none;
-  color: white;
-  padding: 12px 30px;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
   cursor: pointer;
-  font-size: 20px;
+  border-radius: 16px;
 }
 
-/* Darker background on mouse-over */
-
-.btn:hover {
-  background-color: RoyalBlue;
+.button:hover {
+  background-color: #f1f1f1;
 }
