@@ -42,18 +42,3 @@ ul.posts li {
     list-style: none;
 }
 
-}
-
-
-}
-
-header.cv {
-  epadding-top: 10rem;
-  epadding-bottom: calc(10rem - 72px);
-  background: url("../img/mycv.pdf");
-  ebackground-position: center;
-  ebackground-repeat: no-repeat;
-  ebackground-attachment: scroll;
-  ebackground-size: cover;
-
-}
