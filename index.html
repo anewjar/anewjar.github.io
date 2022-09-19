@@ -208,16 +208,29 @@
     <div class="w3-row-padding">
       <div class="w3-col s4">
         
-        
-        <h4>Contact</h4>
-        <p>Questions? Go ahead.</p>
-        <form id="fcf-form-id" class="fcf-form-class" method="post" action="contactus.php">
-          <p><input class="w3-input w3-border" type="text" placeholder="Name" name="Name" required></p>
-          <p><input class="w3-input w3-border" type="text" placeholder="Email" name="Email" required></p>
-          <p><input class="w3-input w3-border" type="text" placeholder="Subject" name="Subject" required></p>
-          <p><input class="w3-input w3-border" type="text" placeholder="Message" name="Message" required></p>
-          <button type="submit" class="w3-button w3-block w3-black">Send</button>
+      
           
+          <h4>Contact</h4>
+          <p>Questions? Go ahead.</p>
+          <form id="fcf-form-id" class="fcf-form-class" method="post" action="contactus.php">
+          <label for="Name" class="w3-input w3-border">Your name</label>
+          
+          <input type="text" id="Name" name="Name" class="w3-input w3-border" required>
+            
+        
+            <label for="Email" class="w3-input w3-border">Your email address</label>
+            
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+           
+        
+            <label for="Message" class="w3-input w3-border">Your message</label>
+           
+                <textarea id="Message" name="Message" class="w3-input w3-border" rows="6" maxlength="3000" required></textarea>
+            
+        </div>
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
+        </div>
         </form>
       </div>
 
